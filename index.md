@@ -3,4 +3,8 @@ PP PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 
 900000
 
-Wolf town tastes like ass
+
+
+| Object| Color |
+| ----------- | ----------- |
+| __grass__ | *green* |
