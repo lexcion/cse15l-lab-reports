@@ -8,3 +8,4 @@ PP PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 | Object| Color |
 | ----------- | ----------- |
 | __grass__ | *green* |
+| __water__ | *wet* |
