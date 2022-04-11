@@ -17,7 +17,7 @@ These are the steps I took to get it working:
 |Then to remotely connect, I typed in the terminal: |
 
     ssh cs15lsp22auj@ieng6.ucsd.edu
- &nbsp; Your version should be a different email unique to your account. Type in your password and it should look something like this:
+&nbsp; Your version should be a different email unique to your account. Type in your password and it should look something like this:
 
 ![Image](remotelyconnecting.png)
 &nbsp; (Make sure you downloaded OpenSSH if you're on Windows)
@@ -60,7 +60,7 @@ That should successfully allow you to log in without entering a password like be
 
 |Optimizing Remote Running |  |
 | ----------- | ----------- |
-|Since I no longer needed to enter my password, I noticed I could combine commands to update my code, then compile and run it all into one entry like so. |
+|Since I no longer needed to enter my password, I noticed I could combine commands to update my code, then compile and run it all into one entry like so: |
 
 ![Image](optimizing.png)
 
