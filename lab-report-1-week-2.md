@@ -1,32 +1,34 @@
 |CSE 15L Lab Report 1 |  |
 | ----------- | ----------- |
-|This a tutorial on how to log in to your course-specific account on *ieng6*! 
-These are the steps I took to get it working:|
+|This a tutorial on how to log in to your course-specific account on *ieng6*! |
+These are the steps I took to get it working:
 
 |Visual Studio Code|  |
 | ----------- | ----------- |
 |Firstly, I downloaded Visual Studio Code at  https://code.visualstudio.com/.
- You should see a window similar to this:|
+ You should see a window similar to this:
+
 ![Image](vscode.png)	
 
 | Remotely Connecting|  |
 | ----------- | ----------- |
-|Then to remotely connect, I typed in the terminal: 
+|Then to remotely connect, I typed in the terminal: |
     ssh cs15lsp22auj@ieng6.ucsd.edu
  &nbsp; Your version should be a different email unique to your account. Type in your password and it should look something like this:
 
 ![Image](remotelyconnecting.png)
 &nbsp; (Make sure you downloaded OpenSSH if you're on Windows)
+
 |Trying Some Commands |  |
 | ----------- | ----------- |
-There are a lot of commands to try after ssh-ing. 
-Here are some commands I tested as shown below.
+|There are a lot of commands to try after ssh-ing. |
+Here are some commands I tested as shown below:
 
 ![Image](runsomecommands.png)
 
 |Moving Files over SSH with scp |  |
 | ----------- | ----------- |
-Next, I remotely sent the file WhereAmI.java with the command:
+|Next, I remotely sent the file WhereAmI.java with the command:|
     scp WhereAmI.java cs15lsp22auj@ieng6.ucsd.edu:~/
 &nbsp; That should successfully send the file as long as your Visual Studio path and email is correct, once you type in the password it will look similar to this:
 
@@ -35,7 +37,7 @@ Next, I remotely sent the file WhereAmI.java with the command:
 
 |Setting an SSH Key |  |
 | ----------- | ----------- |
-To set my SSH key, I typed into the terminal: 
+|To set my SSH key, I typed into the terminal: |
     ssh-keygen
 &nbsp; (I saved it into /Users/my-username/.ssh/id_rsa and used no passphrase)
 
@@ -52,7 +54,7 @@ That should successfully allow you to log in without entering a password like be
 
 |Optimizing Remote Running |  |
 | ----------- | ----------- |
-Since I no longer needed to enter my password, I noticed I could combine commands to update my code, then compile and run it all into one entry like so. 
+|Since I no longer needed to enter my password, I noticed I could combine commands to update my code, then compile and run it all into one entry like so. |
 
 ![Image](optimizing.png)
 
