@@ -17,6 +17,7 @@ These are the steps I took to get it working:
 |Then to remotely connect, I typed in the terminal: |
 
     ssh cs15lsp22auj@ieng6.ucsd.edu
+
 &nbsp; Your version should be a different email unique to your account. Type in your password and it should look something like this:
 
 ![Image](pictures/remotelyconnecting.png)
@@ -35,6 +36,7 @@ Here are some commands I tested as shown below:
 |Next, I remotely sent the file WhereAmI.java with the command:|
 
     scp WhereAmI.java cs15lsp22auj@ieng6.ucsd.edu:~/
+
 &nbsp; That should successfully send the file as long as your Visual Studio path and email is correct, once you type in the password it will look similar to this:
 
 
@@ -45,6 +47,7 @@ Here are some commands I tested as shown below:
 |To set my SSH key, I typed into the terminal: |
 
     ssh-keygen
+    
 &nbsp; (I saved it into /Users/my-username/.ssh/id_rsa and used no passphrase)
 
 &nbsp; Then once the key was made I made a .ssh folder while I was logged into SSH like so:
