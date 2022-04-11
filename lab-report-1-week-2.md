@@ -5,8 +5,8 @@ These are the steps I took to get it working:
 
 |Visual Studio Code|  |
 | ----------- | ----------- |
-|Firstly, I downloaded Visual Studio Code at  https://code.visualstudio.com/.
- You should see a window similar to this:
+|Firstly, you should download Visual Studio Code [here](https://code.visualstudio.com/) if you didn't have it already. |
+ You should see a window similar to this when run:
 
 ![Image](vscode.png)	
 
