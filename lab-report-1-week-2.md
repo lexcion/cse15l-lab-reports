@@ -1,27 +1,59 @@
-![Image](fish.jfif)	
-
-| Object| Color |
+|CSE 15L Lab Report 1 |  |
 | ----------- | ----------- |
-| __grass__ | *green* |
-| __water__ | *wet* |
+|This a tutorial on how to log in to your course-specific account on *ieng6*! 
+These are the steps I took to get it working:|
 
-[Lab Report 1](lab-report-1-week-2.html) 
-
-[Lab Report 1](https://lexcion.github.io/cse15l-lab-reports/lab-report-1-week-2.html) 
-
-| Biography |  |
+|Visual Studio Code|  |
 | ----------- | ----------- |
-|Tetraodontidae is a family of primarily marine and estuarine fish of the order Tetraodontiformes. The family includes many familiar species variously called __pufferfish, puffers, balloonfish, blowfish, blowies, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, sugar toads, and sea squab__.[1] They are morphologically similar to the closely related porcupinefish, which have large external spines (unlike the thinner, hidden spines of the Tetraodontidae, which are only visible when the fish have puffed up). The scientific name refers to the four large teeth, fused into an upper and lower plate, which are used for crushing the hard shells of crustaceans and mollusks, their natural prey.|
+|Firstly, I downloaded Visual Studio Code at  https://code.visualstudio.com/.
+ You should see a window similar to this:|
+![Image](vscode.png)	
 
-| Dangers|  |
+| Remotely Connecting|  |
 | ----------- | ----------- |
-|The majority of the pufferfish's species are toxic and some are among the most poisonous vertebrates in the world. In certain species, the internal organs, such as the liver, and sometimes the skin, contain tetrodotoxin, and are highly toxic to most animals when eaten; nevertheless, the meat of some species is considered a delicacy in Japan (as 河豚, pronounced fugu), Korea (as 복, bok, or 복어, bogeo), and China (as 河豚, hétún) when prepared by specially trained chefs who know which part is safe to eat and in what quantity. Other pufferfish species with nontoxic flesh, such as the northern puffer, Sphoeroides maculatus, of Chesapeake Bay,[2] are considered a delicacy elsewhere.[3] |
+|Then to remotely connect, I typed in the terminal: 
+    ssh cs15lsp22auj@ieng6.ucsd.edu
+ &nbsp; Your version should be a different email unique to your account. Type in your password and it should look something like this:
 
-
-| Unique facts |  |
+![Image](remotelyconnecting.png)
+&nbsp; (Make sure you downloaded OpenSSH if you're on Windows)
+|Trying Some Commands |  |
 | ----------- | ----------- |
-|The species *Torquigener albomaculosus* was described by David Attenborough as "the greatest artist of the animal kingdom" due to the males' unique habit of wooing females by creating nests in sand composed of complex geometric designs.[4]|
+There are a lot of commands to try after ssh-ing. 
+Here are some commands I tested as shown below.
 
-![Image](fish.jfif)	
+![Image](runsomecommands.png)
 
-Source: https://en.wikipedia.org/wiki/Tetraodontidae
+|Moving Files over SSH with scp |  |
+| ----------- | ----------- |
+Next, I remotely sent the file WhereAmI.java with the command:
+    scp WhereAmI.java cs15lsp22auj@ieng6.ucsd.edu:~/
+&nbsp; That should successfully send the file as long as your Visual Studio path and email is correct, once you type in the password it will look similar to this:
+
+
+![Image](movingfilesover.png)
+
+|Setting an SSH Key |  |
+| ----------- | ----------- |
+To set my SSH key, I typed into the terminal: 
+    ssh-keygen
+&nbsp; (I saved it into /Users/my-username/.ssh/id_rsa and used no passphrase)
+
+&nbsp; Then once the key was made I made a .ssh folder while I was logged into SSH like so:
+
+    mkdir .ssh
+
+Then I logged out, and typed in:
+
+    $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+That should successfully allow you to log in without entering a password like below:
+![Image](sshkeys.png)
+
+|Optimizing Remote Running |  |
+| ----------- | ----------- |
+Since I no longer needed to enter my password, I noticed I could combine commands to update my code, then compile and run it all into one entry like so. 
+
+![Image](optimizing.png)
+
+&nbsp; I'm still curious on how to further optimize compiling and get it all under 4 seconds though, because my optimization is still not that fast if I manually type it in.
