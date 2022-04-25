@@ -4,8 +4,6 @@ In this lab report I will be going over three code changes I made in lab 3 to fi
 
 ## Code Change 1
 
-**Screenshot**
-
 ![Image](report2pictures/1.png)	
 Above is a screenshot of the code I added to MarkdownParse.java. 
 
