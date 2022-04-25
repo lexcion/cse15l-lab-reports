@@ -1,6 +1,6 @@
 ## Intro
 
-In this lab report I will be going over three code changes I made in lab 3 to fix a bug.
+In this lab report I will be going over three code changes I made in lab 3 to fix or look for bugs.
 
 ## Code Change 1
 
