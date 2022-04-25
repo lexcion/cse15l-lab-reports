@@ -10,7 +10,7 @@ Above is a screenshot of the code I added to MarkdownParse.java.
 I added these if statements because my code had a failure-inducing input from a test file.
 
 
-The test file that caused the failure is [right here.](https://github.com/lexcion/markdown-parser/commit/6c85b60fc69188f72dd4140bdbe0e2318f8d3837), and here is a screenshot of it:
+The test file link that caused the failure is [right here](https://github.com/lexcion/markdown-parser/commit/6c85b60fc69188f72dd4140bdbe0e2318f8d3837), and here is a screenshot of it:
 
 ![Image](report2pictures/testfile1.png)
 
