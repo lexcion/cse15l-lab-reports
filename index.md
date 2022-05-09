@@ -1,11 +1,5 @@
-PP PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+[Lab 1](https://lexcion.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[Lab 2](https://lexcion.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-900000
-
-
-
-| Object| Color |
-| ----------- | ----------- |
-| __grass__ | *green* |
-| __water__ | *wet* |
+[Lab 3](https://lexcion.github.io/cse15l-lab-reports/lab-report-4-week-6.html)
