@@ -2,7 +2,7 @@
 
 
 
-## Streamlining ssh Configuration
+## Streamlining my ssh Configuration
 
 This is my .ssh/config file, which I edited through VSCode:
 
@@ -16,7 +16,7 @@ This is the scp command I used to copy a file into my ssh account more quickly:
 
 ![Image](report3pictures/pic3.png)
 
-## Setup Github Access from ieng6
+## Setting up Github Access from ieng6
 
 Using Github Bash, I can view the public keys stored on Github and my user account (the files with .pub at the end):
 
