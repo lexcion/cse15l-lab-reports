@@ -32,14 +32,19 @@ Github while logged into your ieng6 account.
 
 ![Image](report3pictures/pic6.png)
 
+![Image](report3pictures/pic6.1.png)
+
 ○Show a link for the resulting commit.
 
-![Image](report3pictures/pic7.png)
+[right here](https://github.com/lexcion/markdown-parser/commit/edd3534254ed18008655c6f9bbab6ab10f23d439)
+
 
 ## Copy whole directories with scp -r
 
 ○Show copying your whole markdown-parse directory to your ieng6
 account.
+
+![Image](report3pictures/pic7.png)
 
 ![Image](report3pictures/pic8.png)
 
