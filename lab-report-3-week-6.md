@@ -26,7 +26,7 @@ Using Github Bash, I can view the public keys stored on my user account (the fil
 
 ![Image](report3pictures/pic4.png)
 
-I also added the ssh key to my github:
+I also added the public ssh key to my github:
 
 ![Image](report3pictures/publickey.png)
 
