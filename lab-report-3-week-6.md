@@ -60,14 +60,8 @@ I was then able to log into my remote account, then compile and run the tests re
 
 ![Image](report3pictures/pic9.png)
 
-Lastly, I tried to copy the directory and then compile it all in one line. 
+Lastly, after much trial and error I was able to copy the directory and then compile it in one long command like so: 
 
-![Image](report3pictures/pic10.png)
+![Image](report3pictures/copyandrun.png)
 
-However, I couldn't get the compiling to work because it didn't seem to compile MarkdownParseTest.java correctly. 
-
-Even though when I previously logged in I could compile/run the tests, when I had to log in and compile in a single line it seemed to not use the proper Java packages.
-
-![Image](report3pictures/pic10.1.png)
-
-However overall, this lab I learned to more easily log in remotely, commit/push on github through the terminal, and copy/run a directory in the remote server.
+Overall, in this lab I learned to more easily log in remotely, commit/push on github through the terminal, and copy/run a directory in the remote server.
