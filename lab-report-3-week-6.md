@@ -8,13 +8,17 @@ This is my .ssh/config file, which I edited through VSCode:
 
 ![Image](report3pictures/pic1.png)
 
-To log into my ssh account more efficiently I used the command "ssh ieng6" like so: 
+To log into my ssh account with an alias, I used the command "ssh juh020@ieng6" to log in like so: 
 
-![Image](report3pictures/pic2.png)
+![Image](report3pictures/alias1.png)
 
-This is the scp command I used to copy a file into my ssh account more quickly:
+Then I used this scp command to copy the file into my alias.
 
-![Image](report3pictures/pic3.png)
+![Image](report3pictures/aliascopy.png)
+
+Now when I log back into my alias and check the files, I can confirm that the testfile was successfully copied in:
+
+![Image](report3pictures/aliasls.png)
 
 ## Setting up Github Access from ieng6
 
