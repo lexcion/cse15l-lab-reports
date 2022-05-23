@@ -8,19 +8,27 @@ This is my .ssh/config file, which I edited through VSCode:
 
 ![Image](report3pictures/pic1.png)
 
-To log into my ssh account more efficiently I used the command "ssh ieng6" like so: 
+To log into my ssh account with an alias, I used the command "ssh juh020@ieng6", juh020 being my alias, to log in like so: 
 
-![Image](report3pictures/pic2.png)
+![Image](report3pictures/alias1.png)
 
-This is the scp command I used to copy a file into my ssh account more quickly:
+Then I used this scp command to copy the file into my alias.
 
-![Image](report3pictures/pic3.png)
+![Image](report3pictures/aliascopy.png)
+
+Now when I log back into my alias and check the files, I can confirm that the testfile was successfully copied in:
+
+![Image](report3pictures/aliasls.png)
 
 ## Setting up Github Access from ieng6
 
-Using Github Bash, I can view the public keys stored on Github and my user account (the files with .pub at the end):
+Using Github Bash, I can view the public keys stored on my user account (the files with .pub at the end):
 
 ![Image](report3pictures/pic4.png)
+
+I also added the ssh key to my github:
+
+![Image](report3pictures/publickey.png)
 
 And this is the path where my private key is stored in my laptop: 
 
@@ -52,14 +60,8 @@ I was then able to log into my remote account, then compile and run the tests re
 
 ![Image](report3pictures/pic9.png)
 
-Lastly, I tried to copy the directory and then compile it all in one line. 
+Lastly, after much trial and error I was able to copy the directory and then compile it in one long command like so: 
 
-![Image](report3pictures/pic10.png)
+![Image](report3pictures/copyandrun.png)
 
-However, I couldn't get the compiling to work because it didn't seem to compile MarkdownParseTest.java correctly. 
-
-Even though when I previously logged in I could compile/run the tests, when I had to log in and compile in a single line it seemed to not use the proper Java packages.
-
-![Image](report3pictures/pic10.1.png)
-
-However overall, this lab I learned to more easily log in remotely, commit/push on github through the terminal, and copy/run a directory in the remote server.
+Overall, in this lab I learned to more easily log in remotely, commit/push on github through the terminal, and copy/run a directory in the remote server.
