@@ -1,5 +1,7 @@
 ## Lab Report 4 - Justin He
 
+In this report I added and tested 3 test cases in my markdown parser code and the lab 7 reviewed code, as well as included commentary on whether I could fix each issue in my code in less than 10 line changes.
+
 ## Snippet 1 
 
 According to the VSCode preview here,
